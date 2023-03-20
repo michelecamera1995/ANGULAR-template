@@ -1,6 +1,10 @@
 
-<router-outlet></router-outlet>
+<nav class="navbar">
+    <ul>
+      <li><a routerLink="/first-component" routerLinkActive="active" ariaCurrentWhenActive="page">DEMO 1 SENZA COMPONENTI</a></li>
+      <li><a routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">DEMO 2</a></li>
+      <li><a routerLink="/third-component" routerLinkActive="active" ariaCurrentWhenActive="page">DEMO 3</a></li>
+    </ul>
+</nav>
 
-<app-header></app-header>
-<app-main></app-main>
-<app-footer></app-footer>
+<router-outlet></router-outlet>
